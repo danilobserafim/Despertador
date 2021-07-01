@@ -1,0 +1,12 @@
+.relogio{
+    text-align: center;
+    font-size: 5rem;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+
+@media(max-width: 600px){
+    .relogio{
+        font-size: 2rem;
+    }
+}

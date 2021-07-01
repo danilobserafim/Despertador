@@ -1,0 +1,61 @@
+.despertador{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: sans-serif;
+}
+.despertador label{
+    font-size: 1.25rem;
+    font-weight: 550;
+    
+}
+
+.despertador input, .despertador button{
+    align-content: center;
+    height: 32px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 25px auto;
+}
+.despertador button{
+    width: 500px;
+    height: 40px;
+    position: relative;
+    border-radius: 4px;border: none;
+    box-shadow: 1px 1px 3px rgb(197, 197, 197);
+}
+
+.despertador button img{
+    height: 22px;
+    width: 22px;
+}
+
+.despertador div button{
+    height: 32px;
+    width: 32px;
+}
+.despertador div button:hover{
+    background-color: rgb(77, 187, 181);
+}
+
+.btnAtivo{
+    background-color: rgb(148, 255, 41);
+}
+.btnAtivo:hover{
+    background-color: rgb(106, 212, 0);
+}
+.btnInativo{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+.btnInativo:hover{
+    background-color: rgb(221, 0, 0);
+}
+.despertador h3{opacity: 0;}
+
+.despertador span{
+    color: red;
+    text-shadow: 1px 1px gray;
+}
