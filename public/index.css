@@ -1,5 +1,6 @@
 body{
     background-image: url("pexels-tobias-bjørkli-1693095.jpg");
     background-size: cover;
+    background-position: center ;
     color: azure;
 }

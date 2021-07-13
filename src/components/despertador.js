@@ -44,13 +44,7 @@ function Despertador() {
         setMinAlarme(null)
         document.getElementById('audio').pause()
         setIsActive(!isActive)
-        document.getElementById('mensagem').style = "opacity:0;"
-        document.getElementById('hora').value = null
-        document.getElementById('minuto').value = null
-        
-
-
-        
+        document.getElementById('mensagem').style = "opacity:0;"        
     }
 
 
@@ -105,7 +99,7 @@ function Despertador() {
             <button onClick={() => ativarAlarme()} className={style.btnAtivo}>Ativar Alarme</button>
             :
             <button onClick={() => desativarAlarme()} className={style.btnInativo}>Desativar Alarme</button>}
-            <h3 id='mensagem'>Seu alarme tocará às <span>{horaAlarme < 10? '0' + horaAlarme : horaAlarme} : {minAlarme < 10? '0' + minAlarme : minAlarme}</span></h3>
+            <p id='mensagem'>Seu alarme tocará às <span>{horaAlarme < 10? '0' + horaAlarme : horaAlarme} : {minAlarme < 10? '0' + minAlarme : minAlarme}</span></p>
         </div>
     )
 }

@@ -53,9 +53,9 @@
 .btnInativo:hover{
     background-color: rgb(221, 0, 0);
 }
-.despertador h3{opacity: 0;}
+.despertador p{opacity: 0;}
 
 .despertador span{
-    color: red;
+    color: rgb(148, 255, 41);
     text-shadow: 1px 1px gray;
 }
