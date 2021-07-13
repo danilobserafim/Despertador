@@ -45,9 +45,9 @@ function Despertador() {
         document.getElementById('audio').pause()
         setIsActive(!isActive)
         document.getElementById('mensagem').style = "opacity:0;"
-        document.getElementById('hora').disabled = true
-        document.getElementById('minuto').disabled = true
-        alert('Que bom que ja acordou :D')
+        document.getElementById('hora').value = null
+        document.getElementById('minuto').value = null
+        
 
 
         
