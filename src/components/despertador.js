@@ -62,7 +62,7 @@ function Despertador() {
     return(
 
         <div id="despertador" className={style.despertador}>
-            <audio hidden id="audio">
+            <audio hidden id="audio" loop="loop">
                 <source src="toque.mp3" type="audio/mp3"></source>
             </audio>
             <div>
